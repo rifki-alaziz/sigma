@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Istigosah Kubra",
+    "description": "Panduan lengkap istigosah kubra dan doa harian santri.",
+    "cover": "https://i.ibb.co/sJydfkJ/istigosah1.jpg",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Ratib Al-Haddad",
+    "description": "Kumpulan dzikir dan wirid karangan Imam Al-Haddad.",
+    "cover": "https://i.ibb.co/ggTrzYx/ratib-haddad.jpg",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Dalailul Khairat",
+    "description": "Sholawat dan doa mulia yang dibaca dalam majelis istigosah.",
+    "cover": "https://i.ibb.co/M6Y6Cgz/dalail.jpg",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Istighfar & Dzikir Pilihan",
+    "description": "Kumpulan dzikir pilihan untuk memperbanyak istighfar.",
+    "cover": "https://i.ibb.co/vd4dRRW/istighfar.jpg",
+    "link": "#"
+  }
+]

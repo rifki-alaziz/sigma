@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🪶 Font & Pengaturan Dasar */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent; /* Hilangkan highlight biru di mobile */
+  }
+
+  body {
+    /* Menggunakan background soft gray (gray-50) agar kartu putih terlihat menonjol */
+    @apply font-poppins text-gray-800 bg-gray-50 antialiased transition-colors duration-300;
+  }
+
+  /* Seleksi teks warna pastel lembut */
+  ::selection {
+    @apply bg-blue-200 text-blue-900;
+  }
+}
+
+/* 🛠 Utilities Tambahan untuk Tema Modern */
+@layer utilities {
+  
+  /* Sembunyikan scrollbar tapi tetap bisa scroll (untuk Slider Horizontal) */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Efek Kaca (Glassmorphism) yang sering dipakai di tema ini */
+  .glass {
+    @apply bg-white/30 backdrop-blur-md border border-white/20;
+  }
+
+  /* Font Arab Khusus (Sesuai request StudentDetail) */
+  .font-arabic {
+    font-family: 'Scheherazade New', serif;
+  }
+}
+
+/* 🎨 Kustomisasi Scrollbar Global (Agar bulat dan soft) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full border-2 border-gray-50; /* Border membuat efek padding */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* CATATAN:
+   - Efek 'neon-border', 'textGlow', 'pulse-slow' DIHAPUS karena tidak sesuai dengan tema Pastel/Soft.
+   - Warna hardcode (#00f0ff) DIHAPUS, digantikan oleh class Tailwind (text-blue-600, dll).
+   - Dark mode overrides DIHAPUS agar tidak bentrok dengan class `dark:` di komponen React.
+*/
