@@ -1,19 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import {
-  FileText,
-  Image,
-  Video,
-  BookOpen,
-  Plus,
-  Edit,
-  Trash2,
-  Eye,
-  Upload,
-  Download,
-  Search,
-  Filter
-} from 'lucide-react';
+import { FileText, Image, Video, BookOpen, Plus, CreditCard as Edit, Trash2, Eye, Upload, Download, Search, ListFilter as Filter } from 'lucide-react';
 
 interface ContentItem {
   id: string;

@@ -1,17 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import {
-  Search,
-  Filter,
-  Plus,
-  Edit,
-  Trash2,
-  Shield,
-  User,
-  Mail,
-  Calendar,
-  MoreVertical
-} from 'lucide-react';
+import { Search, ListFilter as Filter, Plus, CreditCard as Edit, Trash2, Shield, User, Mail, Calendar, MoveVertical as MoreVertical } from 'lucide-react';
 
 interface UserData {
   id: string;

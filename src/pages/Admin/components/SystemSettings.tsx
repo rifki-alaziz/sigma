@@ -1,20 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import {
-  Settings,
-  Database,
-  Shield,
-  Bell,
-  Mail,
-  Globe,
-  Palette,
-  Download,
-  Upload,
-  RefreshCw,
-  Save,
-  AlertTriangle,
-  CheckCircle
-} from 'lucide-react';
+import { Settings, Database, Shield, Bell, Mail, Globe, Palette, Download, Upload, RefreshCw, Save, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle } from 'lucide-react';
 
 const SystemSettings: React.FC = () => {
   const [activeSection, setActiveSection] = useState('general');

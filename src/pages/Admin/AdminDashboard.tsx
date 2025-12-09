@@ -1,23 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import {
-  Users,
-  GraduationCap,
-  BookOpen,
-  Settings,
-  BarChart3,
-  Shield,
-  Database,
-  Activity,
-  TrendingUp,
-  UserCheck,
-  FileText,
-  Calendar,
-  Bell,
-  Download,
-  Upload,
-  RefreshCw
-} from 'lucide-react';
+import { Users, GraduationCap, BookOpen, Settings, ChartBar as BarChart3, Shield, Database, Activity, TrendingUp, UserCheck, FileText, Calendar, Bell, Download, Upload, RefreshCw } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 

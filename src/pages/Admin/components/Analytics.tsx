@@ -1,15 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {
-  TrendingUp,
-  Users,
-  Eye,
-  Download,
-  Calendar,
-  BarChart3,
-  PieChart,
-  Activity
-} from 'lucide-react';
+import { TrendingUp, Users, Eye, Download, Calendar, ChartBar as BarChart3, ChartPie as PieChart, Activity } from 'lucide-react';
 
 const Analytics: React.FC = () => {
   // Mock analytics data

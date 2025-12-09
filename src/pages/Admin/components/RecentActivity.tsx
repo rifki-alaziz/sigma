@@ -1,15 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {
-  UserPlus,
-  Edit,
-  Trash2,
-  Eye,
-  Download,
-  Upload,
-  Settings,
-  Clock
-} from 'lucide-react';
+import { UserPlus, CreditCard as Edit, Trash2, Eye, Download, Upload, Settings, Clock } from 'lucide-react';
 
 interface Activity {
   id: string;
